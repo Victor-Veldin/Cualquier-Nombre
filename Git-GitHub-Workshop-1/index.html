@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple team portfolio built during a Git and GitHub workshop."
+    />
+    <title>Our Development Team | Git Workshop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" id="home">
+        <div class="header-topline">
+          <span>GIT WORKSHOP / 2026</span>
+        </div>
+        <p class="header-kicker">COLLABORATION LAB</p>
+        <h1 id="team-name">OUR DEVELOPMENT TEAM</h1>
+        <p class="header-tagline" id="team-tagline">Building cool things together</p>
+        <div class="header-rule" aria-hidden="true"></div>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About us</a>
+          <a href="#partners">Partners</a>
+          <a href="#skills">Skills</a>
+          <a href="#ideas">Project ideas</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro-section" id="about" aria-labelledby="about-title">
+          <div class="section-copy">
+            <p class="eyebrow">ABOUT US</p>
+            <h2 id="about-title">Learning in public, one version at a time.</h2>
+            <p id="about-copy">
+              We are learning Git and GitHub by building, sharing, and improving small projects together.
+              This page is our first shared space on the web.
+            </p>
+          </div>
+          <div class="intro-stamp" aria-label="A team of two">
+            <span class="stamp-label">TWO PARTNERS<br />ONE REPO</span>
+          </div>
+        </section>
+
+        <section class="partners-section" id="partners" aria-labelledby="partners-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">THE PEOPLE</p>
+              <h2 id="partners-title">Meet the partners</h2>
+            </div>
+            <p class="section-note">Two branches. One shared direction.</p>
+          </div>
+          <div class="partner-grid">
+            <article class="partner-card partner-a" id="partner-a-card"></article>
+            <article class="partner-card partner-b" id="partner-b-card"></article>
+          </div>
+        </section>
+
+        <section class="split-section" id="skills" aria-labelledby="skills-title">
+          <div class="split-heading">
+            <p class="eyebrow">OUR TOOLBOX</p>
+            <h2 id="skills-title">Skills</h2>
+          </div>
+          <div class="skills-content">
+            <p class="skills-intro">The tools we are using to make this page feel like ours.</p>
+            <ul class="skill-list" id="skill-list" aria-label="Team skills"></ul>
+          </div>
+        </section>
+
+        <section class="ideas-section" id="ideas" aria-labelledby="ideas-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">NEXT ON THE MAP</p>
+              <h2 id="ideas-title">Project ideas</h2>
+            </div>
+            <span class="idea-count" id="idea-count">A FEW POSSIBILITIES</span>
+          </div>
+          <div class="idea-list" id="idea-list"></div>
+        </section>
+
+        <section class="invite-section" aria-labelledby="invite-title">
+          <div>
+            <p class="eyebrow">KEEP EXPLORING</p>
+            <h2 id="invite-title">A good portfolio grows with every contribution.</h2>
+          </div>
+          <a class="primary-button" href="#home">Back to top <span aria-hidden="true">↗</span></a>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>GIT WORKSHOP 2026</span>
+        <span>Built with HTML / CSS / JavaScript</span>
+      </footer>
+    </div>
+  </body>
+</html>
